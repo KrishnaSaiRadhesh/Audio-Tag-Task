@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Task</title>
     <style>
-        #s{
-            margin: 70px 70px 0 70px;
+       div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        section{
+            display: block;
+            unicode-bidi: isolate;
         }
     </style>
     
@@ -19,15 +26,32 @@
     </center>
 
 
-    <img src="Fearsong.jfif" alt="Fearsong image"  id="s">   
-    <img src="download.jfif" alt="Rammulo Ramulla song image" id="s" width="230px">  
-    <img src="Gundalona.jfif" alt="Gundalona image" id="s"  width="230px">    
-    <img src="Hum.jfif" alt="Humma song image" id="s">
-        
-    <pre><h2>            Fear Song                     Ramuloo Ramulla Song                 Gundellonaa song                     Hummma Song</h2></pre>
-    <pre>     <audio src="[iSongs.info] 02 - Fear Song.mp3" controls></audio>          <audio src="Ramuloo Ramula - SenSongsMp3.Co.mp3" controls></audio>           <audio src="[iSongs.info] 03 - Gundellonaa.mp3" controls></audio>           <audio src="[iSongs.info] 02 - Humma Humma.mp3" controls></audio> </pre>    
-    <pre>                      <a href="[iSongs.info] 02 - Fear Song.mp3" download><button>Download</button></a>                                        <a href="Ramuloo Ramula - SenSongsMp3.Co.mp3" download><button>Download</button></a>                                             <a href="[iSongs.info] 03 - Gundellonaa.mp3" download><button>Download</button></a>                                           <a href="[iSongs.info] 02 - Humma Humma.mp3" download><button>Download</button></a></pre>
-    
+   <div>
+        <section>
+            <img src="Fearsong.jfif" alt="Fearsong image" height="200px" width="300px">
+            <center><p><strong>Fear song</strong></p></center>
+            <audio src="[iSongs.info] 02 - Fear Song.mp3" controls></audio><br>
+            <center><a href="[iSongs.info] 02 - Fear Song.mp3" download><button>Download</button></a></center>
+        </section>
+        <section>
+            <img src="Rammulo.jpg" alt="RammuloSong image" height="200px" width="300px">
+            <center><p><strong>Ramuloo Ramulaa song</strong></p></center>
+            <audio src="Ramuloo Ramula - SenSongsMp3.Co.mp3" controls></audio><br>
+            <center><a href="Ramuloo Ramula - SenSongsMp3.Co.mp3" download><button>Download</button></a></center>
+        </section>
+        <section>
+            <img src="Gundalona.jfif" alt="Gundellonaa Song Image" height="200px" width="300px">
+            <center><p><strong>Gundellonaa song</strong></p></center>
+            <audio src="[iSongs.info] 03 - Gundellonaa.mp3" controls></audio><br>
+            <center><a href="[iSongs.info] 03 - Gundellonaa.mp3" download><button>Download</button></a></center>
+        </section>
+        <section>
+            <img src="Hum.jfif" alt="Humma Humma image" height="200px" width="300px">
+            <center><p><strong>Humma Humma song</strong></p></center>
+            <audio src="[iSongs.info] 02 - Humma Humma.mp3" controls></audio><br>
+            <center><a href="[iSongs.info] 02 - Humma Humma.mp3" download><button>Download</button></a></center>
+        </section>
+     </div>
     
 </body>
 </html>
